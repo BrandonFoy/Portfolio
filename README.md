@@ -4,7 +4,8 @@ This portfolio is a small project using HTML , CSS and bootstrap. I will be usin
 
 [Live Heroku Deployment](https://portfolio-brandonf.herokuapp.com/)
 
-![image](https://user-images.githubusercontent.com/112343983/190522105-9a273479-8925-47ce-8488-bc6906b3e27d.png)
+![image](https://user-images.githubusercontent.com/112343983/190875832-8a6dd920-9f79-4b77-8db9-0fab13b1621f.png)
+)
 
 ## Technologies Used
 
