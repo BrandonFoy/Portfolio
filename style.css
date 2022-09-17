@@ -88,10 +88,13 @@ ABOUT
     font-size: 15px;
     color: white;
     margin-bottom: 10px;
+    font-style: italic
 }
 
 #about p {
     color: white;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 #about .email{
@@ -132,18 +135,40 @@ PROJECT
     color: black;
 }
 
+#projects .card-1 {
+    background: none;
+    border: none;
+    color: black; 
+}
+
+#projects .card-1 img {
+    width: 100%;
+}
+
 #projects .card img {
     width: 100%;
     padding-top: 20px;
 }
 
 #projects .card-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: x-large;    
+}
+
+#projects .card-body-1 {
+    color: white;
+}
+
+#projects .card-text {
+    font-weight: 600;
 }
 
 #projects .text-muted {
     color: black !important;
+}
+
+#projects .text-muted-1 {
+    color: white !important;
 }
 
 #projects .btn-secondary{
