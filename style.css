@@ -135,16 +135,6 @@ PROJECT
     color: black;
 }
 
-#projects .card-1 {
-    background: none;
-    border: none;
-    color: black; 
-}
-
-#projects .card-1 img {
-    width: 100%;
-}
-
 #projects .card img {
     width: 100%;
     padding-top: 20px;
@@ -157,6 +147,7 @@ PROJECT
 
 #projects .card-body-1 {
     color: white;
+    padding-top: 14px;
 }
 
 #projects .card-text {
