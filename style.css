@@ -8,8 +8,16 @@ body{
     font-family:"monospace",sans-serif;
 }
 
+.nav-item{
+    padding-left: 20vh;
+}
+
+.navbar-nav{
+    margin-right: -25vh;
+}
+
 .navbar {
-    --bs-navbar-padding-y: .5rem !important;
+    --bs-navbar-padding-y: 0.5rem !important;
 }
 
 #navbar .container {
@@ -20,13 +28,16 @@ body{
 
 .navbar-brand{
     color: rgb(238, 255, 0) !important ;
+    font-family: initial;
+    font-size: 40px !important;
+    margin-left: -25vh !important;
 }
 
 .font-primary{
     color: purple;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 800;
-
+    font-family: initial;
 }
 
 .title-icon{
@@ -43,12 +54,14 @@ h2 {
     font-size: 23px;
     margin-bottom: 20px;
     color: rgb(238, 255, 0);
+    font-family: initial;
 }
 
 a.font-black {
-    font-size: 25px;
+    font-size: 40px;
     color: purple; 
     font-weight: 600;
+    font-family: initial;
 }
 
 
@@ -79,22 +92,29 @@ ABOUT
 
 #about .vocation {
     font-size: 20px;
-    color:rgb(238, 255, 0);
+    color:white;
     margin-bottom: 10px;
     font-weight: 500;
 }
 
 #about .skills{
-    font-size: 15px;
-    color: white;
+    font-size: 16px !important;
+    color: gold;
+    font-weight: 700;
     margin-bottom: 10px;
-    font-style: italic
+    font-style: italic;
+    text-shadow: -1px 1px 0 blue,
+                 1px 1px 0 #000,
+                 1px -1px 0 blue;
 }
 
-#about p {
+#about .intro {
     color: white;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
+    text-shadow: -1px 1px 0 blue,
+                 1px 1px 0 #000,
+                 1px -1px 0 blue;
 }
 
 #about .email{
@@ -126,7 +146,9 @@ PROJECT
 
 #projects h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family: initial;
 }
 
 #projects .card {
@@ -142,24 +164,24 @@ PROJECT
 
 #projects .card-title {
     font-weight: 700;
-    font-size: x-large;    
-}
-
-#projects .card-body-1 {
-    color: white;
-    padding-top: 14px;
+    font-size: 30px;
+    color: white !important;
+    text-shadow: -1px 1px 0 blue,
+				  1px 1px 0 #000,
+				 1px -1px 0 blue,
 }
 
 #projects .card-text {
     font-weight: 600;
-}
-
-#projects .text-muted {
-    color: black !important;
-}
-
-#projects .text-muted-1 {
+    font-size: 16px !important;
     color: white !important;
+    text-shadow: -1px 1px 0 blue,
+                 1px 1px 0 #000,
+                 1px -1px 0 blue;
+}
+
+.text-muted-1{
+    font-size: 16px !important;
 }
 
 #projects .btn-secondary{
