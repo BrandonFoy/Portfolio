@@ -8,6 +8,18 @@ body{
     font-family:"monospace",sans-serif;
 }
 
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
 .nav-item{
     padding-left: 20vh;
 }
@@ -59,7 +71,7 @@ h2 {
 
 a.font-black {
     font-size: 40px;
-    color: purple; 
+    color: gold; 
     font-weight: 600;
     font-family: initial;
 }
@@ -157,6 +169,11 @@ PROJECT
     color: black;
 }
 
+#projects .card video {
+    width: 100%;
+    height: 300px;
+}
+
 #projects .card img {
     width: 100%;
     padding-top: 20px;
@@ -186,4 +203,12 @@ PROJECT
 
 #projects .btn-secondary{
     color: gold !important;
+}
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("img/background.mp4") repeat;
+      background-size: cover;
+    }
 }
